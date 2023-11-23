@@ -15,7 +15,7 @@
 	],
     "autoload": {
         "psr-4": {
-            "nemiah\\phpSepaXml\\": ["src/nemiah/phpSepaXml/"]
+            "flexcom\\php-sepa-xml\\": ["src/nemiah/phpSepaXml/"]
         }
 	},
     "require": {
