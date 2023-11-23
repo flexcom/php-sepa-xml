@@ -21,7 +21,7 @@ class SEPATransfer extends SEPAFile {
 	protected $creationDateTime;
 	#protected $requestedCollectionDate;
 	protected $type = "COR1";
-    protected $paymentInitiation = 'pain.001.001.03';
+    protected $paymentInitiation = 'pain.001.003.03';
 
 	function __construct($data = null) {
 		$this->creationDateTime = new \DateTime();
