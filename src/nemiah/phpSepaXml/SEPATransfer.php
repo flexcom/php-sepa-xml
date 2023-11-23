@@ -33,6 +33,10 @@ class SEPATransfer extends SEPAFile {
 				$this->$k = $v;
 	}
 
+	public function setPain($pain) {
+		$this->paymentInitiation = 'pain.001.003.03';
+	}
+
 	public function addCreditor(SEPACreditor $creditor) {
 		$reqestedExecutionDate = $creditor->reqestedExecutionDate;
 		
